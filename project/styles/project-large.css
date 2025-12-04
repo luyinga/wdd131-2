@@ -1,0 +1,41 @@
+@media (min-width: 765px) {  
+     
+
+    header {
+        background-color: rgb(172, 192, 195);
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 64px;
+    }
+
+    #menu {
+        display: none;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        display: flex;
+    }
+
+    nav a {
+        font-size: 22px;
+        padding: 35px;
+    }
+     footer p {
+        font-size: 22px;
+    }
+
+    #lastModified {
+        font-size: 22px;
+    }
+    
+}
